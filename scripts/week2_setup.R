@@ -5,3 +5,4 @@
 getwd() # check
 dir.create("data/") # make data wd
 dir.create("scripts/") # make data wd
+dir.create("documents/") # make documents wd

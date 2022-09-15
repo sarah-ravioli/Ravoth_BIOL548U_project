@@ -1,6 +1,6 @@
-#### BIOL548U SESSION 3
-#### BY: SARAH RAVOTH
-#### DATE: 2022-SEP-13
+#### BIOL548U WEEK 2 ASSIGNMENT SCRIPT
+#### AUTHOR: SARAH RAVOTH
+#### DATE CREATED: 2022-SEP-13
 
 ########################### PURPOSE ########################### 
 # task 1: Convert all dates and geographic coordinates to ISO standards
@@ -16,7 +16,7 @@ library(raster) # for coordinates
 getwd() # check
 setwd("/Users/sarahravoth/Desktop/biol548U/Ravoth_BIOL548U_project/data") # reset 
 
-# import all tables as separate data frames
+# read in all tables as separate data frames
 abundance <- read.csv("bwgv1_abundance.csv", header=T)
 bromeliads <- read.csv("bwgv1_bromeliads.csv", header=T)
 datasets <- read.csv("bwgv1_datasets.csv", header=T)
