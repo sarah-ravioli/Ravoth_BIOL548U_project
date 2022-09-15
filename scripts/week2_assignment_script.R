@@ -109,9 +109,9 @@ visits$longitude
 # i'll only be exporting files for data i cleaned--i.e., bromeliads, datasets, visits
 getwd() # check
 setwd("/Users/sarahravoth/Desktop/biol548U/Ravoth_BIOL548U_project/data") # reset 
-write.csv(bromeliads, file="bromeliads_tidied_assignment3.csv")
-write.csv(datasets, file="datasets_tidied_assignment3.csv")
-write.csv(visits, file="visits_tidied_assignment3.csv")
+write.csv(bromeliads, file="bromeliads_tidied_week2assignment.csv")
+write.csv(datasets, file="datasets_tidied_week2assignment.csv")
+write.csv(visits, file="visits_tidied_week2assignment.csv")
 
 
 
